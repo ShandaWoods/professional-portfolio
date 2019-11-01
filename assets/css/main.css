@@ -85,7 +85,7 @@ input, select, textarea {
 	body {
 		background-color: #191970
 		;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/sunBurst.jpg"), url("../../images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -97,8 +97,7 @@ input, select, textarea {
 		letter-spacing: 1px;
 		color: #191970
 		;
-		text-shadow: 0 0 0.5px #191970
-		(58, 57, 57, 0.25);
+		text-shadow: 0 0 0.5px #191970;
 		-webkit-text-stroke: 0.25px;
 	}
 
@@ -2173,18 +2172,18 @@ input, select, textarea {
 		#footer a {
 			color: #fff;
 			text-shadow: 0 0 0.5px #191970
-			(255, 255, 255, 0.25);
+			;
 			border-bottom-color: #191970
-			(255, 255, 255, 0.5);
+			;
 		}
 
 			#footer a:hover {
 				color: #B0C4DE
 				;
 				text-shadow: 0 0 0.5px#191970
-				(69, 200, 159, 0.25);
+				;
 				border-bottom-color: #191970
-				(53, 184, 143, 0.5);
+				;
 			}
 
 		#footer .icons {
@@ -2247,8 +2246,8 @@ input, select, textarea {
 			opacity: 0;
 			cursor: pointer;
 			background: #191970
-			(0, 0, 0, 0.01);
-			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+			;
+			-webkit-tap-highlight-color: #191970;
 		}
 
 			.poptrox-popup .nav-next:before,
@@ -2308,7 +2307,7 @@ input, select, textarea {
 			z-index: 2;
 			opacity: 0;
 			-webkit-tap-highlight-color: #191970
-			(255, 255, 255, 0);
+			;
 		}
 
 			.poptrox-popup .closer:before {
@@ -2325,7 +2324,7 @@ input, select, textarea {
 				height: 40px;
 				border-radius: 100%;
 				box-shadow: inset 0 0 0 1px #fff;
-				background: rgba(255, 255, 255, 0.1) url("images/poptrox-closer.svg") center center;
+				background: #191970 url("images/poptrox-closer.svg") center center;
 				color: #fff !important;
 			}
 
